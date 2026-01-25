@@ -23,16 +23,16 @@ function operate(operand,num1,num2)
     switch (operand)
     {
         case '+':
-            add(num1,num2);
+            return add(num1,num2);
             break;
         case '-':
-            sub(num1,num2);
+            return sub(num1,num2);
             break;
         case '*':
-            mul(num1,num2);
+            return mul(num1,num2);
             break;
         case '/':
-            div(num1,num2);
+            return div(num1,num2);
             break;
     }
 }
